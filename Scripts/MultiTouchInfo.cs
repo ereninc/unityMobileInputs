@@ -9,7 +9,7 @@ public class MultiTouch : MonoBehaviour
     private int _maxTapCount = 0;
     private string _multiTouchInfo;
     private Touch _theTouch;
-
+    
     void Update()
     {
         _multiTouchInfo = string.Format("Max tap count: {0}\n", _maxTapCount);
